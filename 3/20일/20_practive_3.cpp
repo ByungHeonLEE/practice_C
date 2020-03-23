@@ -8,7 +8,7 @@ int main() {
         std::cout << "odd" << std::endl;
         break;
         default:
-        std::cout << "even" << std::endl;5
+        std::cout << "even" << std::endl;
         break;
     }
 
