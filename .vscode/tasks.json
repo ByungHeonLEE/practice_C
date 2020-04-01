@@ -9,23 +9,29 @@
       "args": [
         "-g",
         "${file}",
+        "-std=c++11",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}.out",
         // 1. execute .out file /*
         "&&", //to join building and running of the file
-        "${fileDirname}/${fileBasenameNoExtension}.out",
+        "${fileDirname}/${fileBasenameNoExtension}.out"
         //2. file input
-
-        "<",
+        /*"<",
         "${fileDirname}/sample_input.txt",
         //3. file output
 
         ">",
-        "${fileDirname}/sample_output.txt"
+        "${fileDirname}/sample_output.txt"*/
       ],
       "options": { "cwd": "/usr/bin" },
       "problemMatcher": ["$gcc"],
       "group": { "kind": "build", "isDefault": true }
+    },
+    {
+      "label": "execute",
+      "type": "shell",
+      "command": "${fileDirname}/${fileBasenameNoExtension}.out",
+      "group": "test"
     }
   ]
 }
