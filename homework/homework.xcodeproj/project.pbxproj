@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E94259EE243438A4006A7AC2 /* render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E94259EC243438A4006A7AC2 /* render.cpp */; };
+		E9516DF22436DBC8009E0B4A /* practice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9516DF02436DBC7009E0B4A /* practice.cpp */; };
 		E99B259F242CFCBB00765F1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E99B259E242CFCBB00765F1E /* main.cpp */; };
 		E99B25A7242CFD2600765F1E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99B25A6242CFD2600765F1E /* OpenGL.framework */; };
 		E99B25A9242CFD2C00765F1E /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99B25A8242CFD2C00765F1E /* GLUT.framework */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		E94259EC243438A4006A7AC2 /* render.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = render.cpp; sourceTree = "<group>"; };
 		E94259ED243438A4006A7AC2 /* render.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = render.hpp; sourceTree = "<group>"; };
+		E9516DF02436DBC7009E0B4A /* practice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = practice.cpp; sourceTree = "<group>"; };
+		E9516DF12436DBC8009E0B4A /* practice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = practice.hpp; sourceTree = "<group>"; };
 		E99B259B242CFCBB00765F1E /* homework */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99B259E242CFCBB00765F1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E99B25A6242CFD2600765F1E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -50,6 +53,8 @@
 		E99B2592242CFCBB00765F1E = {
 			isa = PBXGroup;
 			children = (
+				E9516DF02436DBC7009E0B4A /* practice.cpp */,
+				E9516DF12436DBC8009E0B4A /* practice.hpp */,
 				E94259EC243438A4006A7AC2 /* render.cpp */,
 				E94259ED243438A4006A7AC2 /* render.hpp */,
 				E99B259D242CFCBB00765F1E /* homework */,
@@ -142,6 +147,7 @@
 			files = (
 				E99B259F242CFCBB00765F1E /* main.cpp in Sources */,
 				E94259EE243438A4006A7AC2 /* render.cpp in Sources */,
+				E9516DF22436DBC8009E0B4A /* practice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

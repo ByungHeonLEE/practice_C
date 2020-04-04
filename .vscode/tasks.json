@@ -8,13 +8,11 @@
       "command": "/usr/bin/g++",
       "args": [
         "-g",
-        "${file}",
         "-std=c++11",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}.out",
-        // 1. execute .out file /*
-        "&&", //to join building and running of the file
-        "${fileDirname}/${fileBasenameNoExtension}.out"
+        "${file}", // 1. execute .out file /*
+        "&&" //to join building and running of the file
         //2. file input
         /*"<",
         "${fileDirname}/sample_input.txt",
