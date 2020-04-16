@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <cstdlib>
 
-int16_t genRandInRange(int a, int b)
+int genRandInRange(int a, int b)
 {
     return rand() % (a - b + 1) + a;
 }
