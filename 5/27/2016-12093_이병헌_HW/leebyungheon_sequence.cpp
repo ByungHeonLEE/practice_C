@@ -114,9 +114,6 @@ int main()
         else if (option == 4)
         {
             auto iter = find(studentNum.begin(), studentNum.end(), studentnumber);
-            sort(name.begin(), name.end());
-            sort(studentNum.begin(), studentNum.end());
-            sort(grade.begin(), grade.end());
             for (size_t i = 0; i < name.size(); i++)
             {
                 cout << name[i] << " " << studentNum[i] << " " << grade[i] << endl;
